@@ -52,32 +52,38 @@
 
 .cal-rows {
     cursor: pointer;
-    background-color: rgb(21, 21, 44);
-    color: white;
+    background-color: var(--dark-blue);
+    color: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
     width: 4.5rem;
     height: 4rem;
     border-radius: 1.25rem;
+    font-weight: 700;
+    font-size: 1.25rem;
 }
 
 .cal-rows-operator {
     cursor: pointer;
     flex: 1;
-    background-color: rgb(21, 21, 44);
-    color: white;
+    background-color: var(--dark-blue);
+    color: var(--white);
     width: 4.5rem;
     border-radius: 1.25rem;
+    font-weight: 700;
+    font-size: 1.25rem;
 }
 
 .cal-equals {
     cursor: pointer;
-    background-color: rgb(34, 34, 94);
-    color: #fff;
+    background-color: var(--dark-navy-blue);
+    color: var(--white);
     width: 4rem;
     height: 4rem;
     border-radius: 1.25rem;
+    font-weight: 700;
+    font-size: 1.25rem;
 }
 
 .rad-deg {
