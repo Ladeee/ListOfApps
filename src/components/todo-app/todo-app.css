@@ -1,0 +1,92 @@
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.todo-wrapper{
+    background-color: var(--white);
+    color: black;
+    width: 50%;
+    height: 80%;
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+}
+
+.todo-input{
+    border: .0625rem solid var(--dark-blue-gray);
+    background-color: var(--dark-blue);
+    color: var(--white);
+    width: 80%;
+}
+
+.add-input{
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.add{
+    border: .0625rem solid var(--dark-blue);
+    color: var(--dark-blue);
+    width: 5rem;
+    height: 2.5rem;
+}
+
+.todolist{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.checkbox-list-delete{
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+}
+
+.checkbox-list{
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.checkbox-icon{
+    font-size: 1.5rem;
+}
+
+.check{
+    background-color: green;
+}
+
+.edit-delete{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.done{
+    background-color: var(--dark-blue-gray);
+}
+
+.list{
+    color: black;
+    font-size: 1.25rem;
+}
+
+.complete{
+    text-decoration: line-through;
+    text-decoration-color: green;
+    text-decoration-thickness: .25rem;
+}
+
+.edit-icon{
+    font-size: 1.25rem;
+}
