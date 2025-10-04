@@ -1,0 +1,70 @@
+.messenger-container{
+    background-color: var(--dark-blue-gray);
+    height: 100vh;
+    display: flex;
+}
+
+.settings-friends{
+    display: flex;
+    flex: .33;
+    border-right: .0625rem solid rgb(255, 255, 255, 0.3);
+}
+
+.settings-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: center;
+    width: 10%;
+    border-right: .0625rem solid rgb(255, 255, 255, 0.3);
+    padding: 1.25rem;
+}
+
+.friends-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1.25rem;
+}
+
+.chats-wrapper{
+    flex: .67;
+}
+
+h1{
+    font-style: italic;
+}
+
+.icon{
+    font-size: 1.25rem;
+}
+
+.search{
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 3rem;
+    border: .0625rem solid var(--white);
+    border-radius: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.search-input{
+    background-color: transparent;
+    color: var(--white);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    height: 3rem;
+}
+
+.search-icon{
+    position: absolute;
+    font-size: 1.25rem;
+    top: 25%;
+    padding-left: .25rem;
+}
