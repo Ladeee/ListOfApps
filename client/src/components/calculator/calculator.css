@@ -1,0 +1,89 @@
+.calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-wrapper {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    height: 70%;
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+}
+
+.cal-input {
+    text-align: right;
+    background-color: transparent;
+    color: whitesmoke;
+    border: .0625rem solid grey;
+    width: 80%;
+    padding-right: 1rem;
+    margin-top: 1.25rem;
+}
+
+.cal-rows-display {
+    display: flex;
+}
+
+.cal-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    padding: 0 1.25rem;
+    margin-top: 2rem;
+}
+
+.cal-operators {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.cal-rows {
+    cursor: pointer;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    height: 4rem;
+    border-radius: 1.25rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.cal-rows-operator {
+    cursor: pointer;
+    flex: 1;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    width: 4.5rem;
+    border-radius: 1.25rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.cal-equals {
+    cursor: pointer;
+    background-color: var(--dark-navy-blue);
+    color: var(--white);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1.25rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.rad-deg {
+    background-color: rgb(21, 21, 44);
+    border-radius: 1.25rem;
+    display: flex;
+    gap: .625rem;
+    grid-column: span 2; /* this makes Rad+Deg occupy more horizontal space */
+}
